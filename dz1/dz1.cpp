@@ -53,4 +53,18 @@ using namespace std;
 //	cout << "S = " << (v * t + (a * (t * t) / 2)) << endl;
 //
 //}
+// ================================
+// int main() {
+// 	setlocale(LC_CTYPE, "ukr");
+// 	cout << "Продам цуценят." << endl;
+// 	cout << "Порода: ротвейлер." << endl;
+// 	cout << "....." << endl;
+// 	cout << "Teл.: 222-22-22" << endl;
+// 	cout << "222	 |   222    |" << endl;
+// 	cout << "22	 |   22     |" << endl;
+// 	cout << "2        |   2      |" << endl;
+// 	cout << "i тд." << endl;
 
+
+
+// }
