@@ -88,9 +88,7 @@ using namespace std;
 //
 //
 //}
-#include <iostream>
-#include <string>
-using namespace std;
+
 
 class Car {
 private:
