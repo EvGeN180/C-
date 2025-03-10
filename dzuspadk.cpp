@@ -81,7 +81,6 @@ public:
 int main()
 {
 	Student student(1, "ffe", "dede", 19, "major", 11, "club1");
-	student.setID(1);
 	student.show_student();
 	cout << student;
 
