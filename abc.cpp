@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <cmath>
-
+#include <fstream>
+#include <string>
 //class Equation {
 //public:
 //    virtual ~Equation() {}
@@ -74,15 +75,8 @@
 //    quadratic1.solve();
 //
 //}
-#include <string>
-#include <fstream>
-#include <iostream>
-#include <string>
 
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <cmath>
+
 
 //class Shape {
 //public:
