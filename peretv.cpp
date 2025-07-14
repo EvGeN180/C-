@@ -52,6 +52,6 @@ int main()
     const int kConst10 = 10;
     int value = kConst10;
     addUserNumber(&value);
-    cout << value << '\n';
+    cout << value ;
 
 }
