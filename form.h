@@ -42,7 +42,6 @@ public:
 
         notes = gcnew List<Note^>();
 
-        // --- Поля вводу ---
         Label^ lbl1 = gcnew Label();
         lbl1->Text = "Назва:";
         lbl1->Location = System::Drawing::Point(20, 20);
@@ -86,7 +85,6 @@ public:
         numPriority->Maximum = 5;
         this->Controls->Add(numPriority);
 
-        // --- Кнопки ---
         btnAdd = gcnew Button();
         btnAdd->Text = "Додати";
         btnAdd->Location = System::Drawing::Point(20, 300);
@@ -111,7 +109,7 @@ public:
         btnEdit->Click += gcnew EventHandler(this, &Form1::btnEdit_Click);
         this->Controls->Add(btnEdit);
 
-        // --- Список нотаток ---
+
         lstNotes = gcnew ListBox();
         lstNotes->Location = System::Drawing::Point(350, 20);
         lstNotes->Width = 340;
